@@ -8,7 +8,7 @@ public class InsertionSort {
 	 * @return					the input array, sorted least to greatest
 	 */
 	public static int[] insertionSort(int[] unsortedArray) {
-		for (int i = 1; i < unsortedArray.length - 1; i++){
+		for (int i = 1; i < unsortedArray.length; i++){
 			int x = unsortedArray[i];
 			int j = i;
 			while (j > 0 && unsortedArray[j-1] > x){
